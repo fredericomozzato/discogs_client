@@ -1,5 +1,9 @@
 package discogs
 
+// TODO: the fields here are only relevant to the Serendipity application. We should
+// ensure that this client captures the whole data from the payload.
+// The saved response example is in misc/response.json
+
 type Artist struct {
 	ID   int    `json:"id"`
 	Name string `json:"name"`

@@ -3,12 +3,13 @@ package discogs
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
-	"log"
 	"net/http"
 	"time"
 )
 
+// TODO: caller must provide a User-Agent
 const UserAgent = "DiscogsClient github.com/fredericomozzato/discogs_client"
 
 type Client struct {
@@ -16,41 +17,42 @@ type Client struct {
 	url        string
 }
 
-func NewClient() Client {
-	return Client{
-		&http.Client{Timeout: 30 * time.Second},
-		"https://api.discogs.com",
+func NewClient() *Client {
+	return &Client{
+		httpClient: &http.Client{Timeout: 30 * time.Second},
+		url:        "https://api.discogs.com",
 	}
 }
 
-// TODO: return err instead of panic
-func (c Client) GetRelease(id int) Release {
+func (c *Client) GetRelease(ctx context.Context, id int) (*Release, error) {
 	req, err := http.NewRequestWithContext(
-		context.Background(),
+		ctx,
 		http.MethodGet,
 		fmt.Sprintf("%s/releases/%d", c.url, id),
 		nil,
 	)
 	if err != nil {
-		log.Fatal(err)
+		return nil, fmt.Errorf("request error: %w", err)
 	}
 
 	req.Header.Add("User-Agent", UserAgent)
 
 	res, err := c.httpClient.Do(req)
 	if err != nil {
-		log.Fatal(err)
+		return nil, fmt.Errorf("response error: %w", err)
 	}
+
 	defer res.Body.Close()
+
 	if res.StatusCode != http.StatusOK {
-		log.Fatalf("unexpected HTTP status: %d\n", res.StatusCode)
+		return nil, errors.New(fmt.Sprintf("unexpected HTTP status: %d\n", res.StatusCode))
 	}
 
 	var release Release
 	err = json.NewDecoder(res.Body).Decode(&release)
 	if err != nil {
-		log.Fatal(err)
+		return nil, fmt.Errorf("json unmarshalling: %w", err)
 	}
 
-	return release
+	return &release, nil
 }
