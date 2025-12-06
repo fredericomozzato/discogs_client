@@ -5,6 +5,8 @@ A Go client to interact with the [Discogs API](https://www.discogs.com/developer
 
 This is a personal project being developed to be the backbone of another personal app. If you want to request (or implement) a feature feel free to open an issue or a PR!
 
+Implemented with Go 1.23.5
+
 # Features
 To be implemented
 
