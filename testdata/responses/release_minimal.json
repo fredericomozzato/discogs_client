@@ -1,7 +1,7 @@
 {
   "id": 12345,
   "status": "Accepted",
-  "year": 2020,
+  "year": 2025,
   "resource_url": "https://api.discogs.com/releases/12345",
   "uri": "https://www.discogs.com/release/12345-Test-Artist-Test-Album",
   "artists": [
