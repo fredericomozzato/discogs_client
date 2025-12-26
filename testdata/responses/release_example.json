@@ -1,795 +1,817 @@
 {
-  "id": 35770609,
+  "id": 7377030,
   "status": "Accepted",
-  "year": 2025,
-  "resource_url": "https://api.discogs.com/releases/35770609",
-  "uri": "https://www.discogs.com/release/35770609-Bob-Dylan-The-Freewheelin-Bob-Dylan",
+  "year": 2010,
+  "resource_url": "https://api.discogs.com/releases/7377030",
+  "uri": "https://www.discogs.com/release/7377030-Deftones-Diamond-Eyes",
   "artists": [
     {
-      "name": "Bob Dylan",
+      "name": "Deftones",
       "anv": "",
       "join": "",
       "role": "",
       "tracks": "",
-      "id": 59792,
-      "resource_url": "https://api.discogs.com/artists/59792",
-      "thumbnail_url": "https://i.discogs.com/AKgs5ft3ZL34qhz-3-BkXutBEg_ClNBEpejTh37_QCo/rs:fit/g:sm/q:90/h:600/w:489/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU5Nzky/LTE1OTgxNTU3OTUt/NTUyMS5qcGVn.jpeg"
+      "id": 12210,
+      "resource_url": "https://api.discogs.com/artists/12210",
+      "thumbnail_url": "https://i.discogs.com/0omov6gOU5EIYsiR-zPp227hD3wTeUjpNqYJ9gFNhoU/rs:fit/g:sm/q:90/h:600/w:393/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLXJfMTIy/MTAtMDAxLmpwZw.jpeg"
     }
   ],
-  "artists_sort": "Bob Dylan",
+  "artists_sort": "Deftones",
   "labels": [
     {
-      "name": "Columbia",
-      "catno": "CL 1986",
+      "name": "Reprise Records",
+      "catno": "9362496670",
       "entity_type": "1",
       "entity_type_name": "Label",
-      "id": 1866,
-      "resource_url": "https://api.discogs.com/labels/1866",
-      "thumbnail_url": "https://i.discogs.com/JuO51-lZvasOtw8-yLUjsen-4O17uPH1A9SILCO-lG4/rs:fit/g:sm/q:90/h:300/w:299/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE4NjYt/MTIzMzE5MzU1Ny5q/cGVn.jpeg"
-    },
-    {
-      "name": "Legacy",
-      "catno": "19802967121",
-      "entity_type": "1",
-      "entity_type_name": "Label",
-      "id": 15491,
-      "resource_url": "https://api.discogs.com/labels/15491",
-      "thumbnail_url": "https://i.discogs.com/jk2im_GXsDlf_1qNdX0KOoZUX6ivAIvgJH0TEBVW7ck/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1NDkx/LTE0OTg4MzQ3MDgt/NzQwOS5wbmc.jpeg"
+      "id": 157,
+      "resource_url": "https://api.discogs.com/labels/157",
+      "thumbnail_url": "https://i.discogs.com/iKBCqc_nPLAGiCS4_2RshoKpj-ZuUJo7Z1qzYmFuJrc/rs:fit/g:sm/q:90/h:600/w:466/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1Ny0x/NTIxMTk1ODk5LTE1/NzgucG5n.jpeg"
     }
   ],
   "series": [],
   "companies": [
     {
-      "name": "Columbia Records",
+      "name": "Reprise Records",
       "catno": "",
       "entity_type": "13",
       "entity_type_name": "Phonographic Copyright (p)",
-      "id": 93330,
-      "resource_url": "https://api.discogs.com/labels/93330",
-      "thumbnail_url": "https://i.discogs.com/Fc3xZhx0_ME57o2yl1RIZGPAFJ9ObzPwoRiCQdQyd5g/rs:fit/g:sm/q:90/h:117/w:328/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkzMzMw/LTE1MjY0ODU4MTgt/Mzk2Mi5qcGVn.jpeg"
+      "id": 157,
+      "resource_url": "https://api.discogs.com/labels/157",
+      "thumbnail_url": "https://i.discogs.com/iKBCqc_nPLAGiCS4_2RshoKpj-ZuUJo7Z1qzYmFuJrc/rs:fit/g:sm/q:90/h:600/w:466/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1Ny0x/NTIxMTk1ODk5LTE1/NzgucG5n.jpeg"
     },
     {
-      "name": "Columbia Records",
+      "name": "WEA International Inc.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 1255,
+      "resource_url": "https://api.discogs.com/labels/1255",
+      "thumbnail_url": "https://i.discogs.com/FTp7bOLG35tc9gGFDNjFIyYDXCcHjkQQMJzGNh6p6nc/rs:fit/g:sm/q:90/h:91/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEyNTUt/MTQ5MDQxMDQzMC00/MjI4LmpwZWc.jpeg"
+    },
+    {
+      "name": "Reprise Records",
       "catno": "",
       "entity_type": "14",
       "entity_type_name": "Copyright (c)",
-      "id": 93330,
-      "resource_url": "https://api.discogs.com/labels/93330",
-      "thumbnail_url": "https://i.discogs.com/Fc3xZhx0_ME57o2yl1RIZGPAFJ9ObzPwoRiCQdQyd5g/rs:fit/g:sm/q:90/h:117/w:328/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTkzMzMw/LTE1MjY0ODU4MTgt/Mzk2Mi5qcGVn.jpeg"
+      "id": 157,
+      "resource_url": "https://api.discogs.com/labels/157",
+      "thumbnail_url": "https://i.discogs.com/iKBCqc_nPLAGiCS4_2RshoKpj-ZuUJo7Z1qzYmFuJrc/rs:fit/g:sm/q:90/h:600/w:466/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE1Ny0x/NTIxMTk1ODk5LTE1/NzgucG5n.jpeg"
     },
     {
-      "name": "Sony Music Entertainment",
+      "name": "WEA International Inc.",
       "catno": "",
-      "entity_type": "4",
-      "entity_type_name": "Record Company",
-      "id": 29073,
-      "resource_url": "https://api.discogs.com/labels/29073",
-      "thumbnail_url": "https://i.discogs.com/brqxJ0_7Bid9TdPXvDixDcKsKR49S1Tu2CJbq1H6qsI/rs:fit/g:sm/q:90/h:43/w:519/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5MDcz/LTE3NTY5MTIzMzYt/MTIwNS5wbmc.jpeg"
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 1255,
+      "resource_url": "https://api.discogs.com/labels/1255",
+      "thumbnail_url": "https://i.discogs.com/FTp7bOLG35tc9gGFDNjFIyYDXCcHjkQQMJzGNh6p6nc/rs:fit/g:sm/q:90/h:91/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEyNTUt/MTQ5MDQxMDQzMC00/MjI4LmpwZWc.jpeg"
     },
     {
-      "name": "MPO",
+      "name": "Sonopress Rimo Indústria E Comércio Fonográfica S.A.",
       "catno": "",
-      "entity_type": "17",
-      "entity_type_name": "Pressed By",
-      "id": 56025,
-      "resource_url": "https://api.discogs.com/labels/56025",
-      "thumbnail_url": "https://i.discogs.com/ESRU3eTUmc1632Us6_7LBipnaQGV6lJe-D5nyFxssyw/rs:fit/g:sm/q:90/h:336/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU2MDI1/LTEzMTQ2OTg5ODQu/anBlZw.jpeg"
+      "entity_type": "10",
+      "entity_type_name": "Manufactured By",
+      "id": 451222,
+      "resource_url": "https://api.discogs.com/labels/451222"
+    },
+    {
+      "name": "Sonopress Rimo Indústria E Comércio Fonográfica S.A.",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 451222,
+      "resource_url": "https://api.discogs.com/labels/451222"
+    },
+    {
+      "name": "WARNER MUSIC BRASIL LTDA.",
+      "catno": "",
+      "entity_type": "6",
+      "entity_type_name": "Licensed From",
+      "id": 79969,
+      "resource_url": "https://api.discogs.com/labels/79969",
+      "thumbnail_url": "https://i.discogs.com/ym_zfNmArHG0tuamNLMJ3x9JB09IPHKInGsyXXhQCWo/rs:fit/g:sm/q:90/h:114/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTc5OTY5/LTE3NDI3OTYzNzMt/NTExOS5qcGVn.jpeg"
+    },
+    {
+      "name": "Arvato Brasil",
+      "catno": "4074/10",
+      "entity_type": "31",
+      "entity_type_name": "Glass Mastered At",
+      "id": 2589133,
+      "resource_url": "https://api.discogs.com/labels/2589133"
+    },
+    {
+      "name": "The Pass",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 281333,
+      "resource_url": "https://api.discogs.com/labels/281333",
+      "thumbnail_url": "https://i.discogs.com/KnVU6PlOiaWLNkJB4mTUU81m0NLvFZpECcqJKaUk13g/rs:fit/g:sm/q:90/h:155/w:371/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4MTMz/My0xMzY5NDkxMzQz/LTY0MzkuanBlZw.jpeg"
+    },
+    {
+      "name": "Ameraycan Studios",
+      "catno": "",
+      "entity_type": "23",
+      "entity_type_name": "Recorded At",
+      "id": 268533,
+      "resource_url": "https://api.discogs.com/labels/268533",
+      "thumbnail_url": "https://i.discogs.com/pgHWuX_1tVa68DxBFPq6lav3b5hE9p9pDIy6u0yz-KU/rs:fit/g:sm/q:90/h:458/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODUz/My0xMzI4MjA0MjEw/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Paramount Recording Studios",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 284159,
+      "resource_url": "https://api.discogs.com/labels/284159",
+      "thumbnail_url": "https://i.discogs.com/WNo1xcmWjIdemTMQrzTG0fbocjBnR5lmYj6nzV8HafY/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI4NDE1/OS0xMzkyODAwMzkx/LTE1MDMuanBlZw.jpeg"
+    },
+    {
+      "name": "Mix LA",
+      "catno": "",
+      "entity_type": "27",
+      "entity_type_name": "Mixed At",
+      "id": 294189,
+      "resource_url": "https://api.discogs.com/labels/294189",
+      "thumbnail_url": "https://i.discogs.com/xz8jItp6CdgLtmFBBjdApMxOqT-OHPyDsUKT_zJkYMQ/rs:fit/g:sm/q:90/h:333/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI5NDE4/OS0xMzU0MjIwNjUz/LTM2MjkuanBlZw.jpeg"
+    },
+    {
+      "name": "Sterling Sound",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 264060,
+      "resource_url": "https://api.discogs.com/labels/264060",
+      "thumbnail_url": "https://i.discogs.com/Z8f0gMBrt5jLL4TAcCYDGXmMPOLi9V0UW593WXP6BUU/rs:fit/g:sm/q:90/h:118/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDA2/MC0xNTAwMjgzMzYy/LTMyMTguanBlZw.jpeg"
+    },
+    {
+      "name": "My Rib Is Broke",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 346366,
+      "resource_url": "https://api.discogs.com/labels/346366"
+    },
+    {
+      "name": "Wb Music Corp.",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 131984,
+      "resource_url": "https://api.discogs.com/labels/131984",
+      "thumbnail_url": "https://i.discogs.com/eW6mLUR1nIwiKso3EmkA7ewTn_OYfDqfAqzGzZ91GSY/rs:fit/g:sm/q:90/h:82/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTEzMTk4/NC0xNDkyODM4Mzc3/LTc1MjcuanBlZw.jpeg"
+    },
+    {
+      "name": "Lil' Kiya",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 714283,
+      "resource_url": "https://api.discogs.com/labels/714283"
     }
   ],
   "formats": [
     {
-      "name": "Vinyl",
+      "name": "CD",
       "qty": "1",
       "descriptions": [
-        "LP",
-        "Album",
-        "Record Store Day",
-        "Reissue",
-        "Mono"
-      ],
-      "text": "MPO Pressing"
+        "Album"
+      ]
     }
   ],
-  "data_quality": "Correct",
+  "data_quality": "Needs Vote",
   "community": {
-    "have": 2459,
-    "want": 635,
+    "have": 90,
+    "want": 141,
     "rating": {
-      "count": 155,
-      "average": 4.89
+      "count": 14,
+      "average": 4.5
     },
     "submitter": {
-      "username": "WolfXCIX",
-      "resource_url": "https://api.discogs.com/users/WolfXCIX"
+      "username": "aberdeenalternative",
+      "resource_url": "https://api.discogs.com/users/aberdeenalternative"
     },
     "contributors": [
       {
-        "username": "WolfXCIX",
-        "resource_url": "https://api.discogs.com/users/WolfXCIX"
+        "username": "aberdeenalternative",
+        "resource_url": "https://api.discogs.com/users/aberdeenalternative"
       },
       {
-        "username": "Opdiner",
-        "resource_url": "https://api.discogs.com/users/Opdiner"
+        "username": "jcomin",
+        "resource_url": "https://api.discogs.com/users/jcomin"
       },
       {
-        "username": "paradox_13",
-        "resource_url": "https://api.discogs.com/users/paradox_13"
+        "username": "sejo",
+        "resource_url": "https://api.discogs.com/users/sejo"
       },
       {
-        "username": "bigstar13",
-        "resource_url": "https://api.discogs.com/users/bigstar13"
-      },
-      {
-        "username": "j_lit",
-        "resource_url": "https://api.discogs.com/users/j_lit"
-      },
-      {
-        "username": "amoebasinger",
-        "resource_url": "https://api.discogs.com/users/amoebasinger"
+        "username": "UTT",
+        "resource_url": "https://api.discogs.com/users/UTT"
       }
     ],
-    "data_quality": "Correct",
+    "data_quality": "Needs Vote",
     "status": "Accepted"
   },
   "format_quantity": 1,
-  "date_added": "2025-11-26T09:28:11-08:00",
-  "date_changed": "2025-12-05T14:31:48-08:00",
-  "num_for_sale": 16,
-  "lowest_price": 39.0,
-  "master_id": 4455,
-  "master_url": "https://api.discogs.com/masters/4455",
-  "title": "The Freewheelin' Bob Dylan",
-  "country": "Worldwide",
-  "released": "2025-11-28",
-  "notes": "Record Store Day Black Friday 2025 \"RSD Exclusive\" release, quantity 13,000.\n\nBack cover variation to [r=35786479], with Columbia and Legacy logos only, and \"Made in France\" printed at bottom.\n\nHype sticker (with 19802967121S1):\nFirst ever release of The Freewheelin' Bob Dylan as it was originally conceived\nIncludes four tracks that were withdrawn before the album came out\nRocks And Gravel\nLet Me Die In My Footsteps\nRambling, Gambling Willie\nTalkin' John Birch Paranoid Blues\nWith the original never-before seen liner notes\n\nCatalog number 19802967121 on spine, back cover, label matrices; CL 1986 on front cover, back cover, labels.\n\nTrack title variations in liner notes: \nA2: Solid Road (\"Rocks and Gravel\")\nB2: Gamblin' Willie\n\n℗ 1963 & © 1963, 2025 Columbia Records.",
-  "released_formatted": "28 Nov 2025",
+  "date_added": "2015-08-21T08:37:44-07:00",
+  "date_changed": "2025-08-22T10:43:39-07:00",
+  "num_for_sale": 1,
+  "lowest_price": 4.92,
+  "master_id": 246252,
+  "master_url": "https://api.discogs.com/masters/246252",
+  "title": "Diamond Eyes",
+  "country": "Brazil",
+  "released": "2010",
+  "notes": "Recorded at The Pass, Los Angeles, CA. & Amerycan Studios, North Hollywood, CA\nMixed at Paramount Studios, Hollywood, CA And Mix LA, Tarzana, CA\nMastered at Sterling Sound, New York, NY",
+  "released_formatted": "2010",
   "identifiers": [
     {
       "type": "Barcode",
-      "value": "1 98029 67121 6",
+      "value": "0 9362-49667-0 8",
       "description": "Text"
     },
     {
       "type": "Barcode",
-      "value": "0198029671216",
+      "value": "093624966708",
       "description": "Scanned"
     },
     {
+      "type": "Mastering SID Code",
+      "value": "IFPI LW75",
+      "description": "Appears Twice"
+    },
+    {
+      "type": "Mould SID Code",
+      "value": "IFPI 1134"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "arvato digital services BERTELSMANN Arvato Digital Services 9362496670 4074/10"
+    },
+    {
+      "type": "Rights Society",
+      "value": "ASCAP"
+    },
+    {
       "type": "Other",
-      "value": "19802967121S1",
-      "description": "Printed on hype sticker"
-    },
-    {
-      "type": "Matrix / Runout",
-      "value": "19802967121A",
-      "description": "Side A label"
-    },
-    {
-      "type": "Matrix / Runout",
-      "value": "19802967121B",
-      "description": "Side B label"
-    },
-    {
-      "type": "Matrix / Runout",
-      "value": "19802967121-A J POWELL [MPO logo]® 25 372076",
-      "description": "Side A runout"
-    },
-    {
-      "type": "Matrix / Runout",
-      "value": "19802967121-B J POWELL [MPO logo]® 25 371862",
-      "description": "Side B runout"
+      "value": "AA0001000",
+      "description": "Batch ID"
     }
   ],
   "videos": [
     {
-      "uri": "https://www.youtube.com/watch?v=PWEhn0aF8RM",
-      "title": "Bob Dylan - Rocks And Gravel (Solid Road) (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n\"Rocks And Gravel (Solid Road)\" Official Audio by Bob Dylan\n\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\nSubscribe to the Bob Dylan YouT",
-      "duration": 179,
+      "uri": "https://www.youtube.com/watch?v=qksTlo_1Tpw",
+      "title": "Deftones - Diamond Eyes [Official Music Video]",
+      "description": "Deftones' official video for the title track, \"Diamond Eyes.\"  \n\nListen to Deftones: https://bio.to/deftones  \n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: htt",
+      "duration": 190,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=MMFj8uDubsE",
-      "title": "Bob Dylan - Blowin' in the Wind (Official Audio)",
-      "description": "Bob Dylan, \"Blowin' In The Wind\"\r\nListen to Bob Dylan: https://bobdylan.lnk.to/toptracksYD\r\n\r\nHear the song in Budweiser's 2019 Super Bowl spot.\r\nWatch: https://bobdylan.lnk.to/budweiserYD\r\n\r\nSubscribe to the Bob Dylan YouTube Channel: https://bobdylan.ln",
-      "duration": 171,
+      "uri": "https://www.youtube.com/watch?v=ZMWh1QYmSvc",
+      "title": "Deftones – Royal (Official Visualizer)",
+      "description": "Official visualizer for “Royal” off our album, Diamond Eyes.\n \n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https://www.instagra",
+      "duration": 213,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=JncbFS5ek74",
-      "title": "Girl from the North Country",
-      "description": "Provided to YouTube by Columbia\n\nGirl from the North Country · Bob Dylan\n\nThe Freewheelin' Bob Dylan\n\n℗ Originally released 1963. All rights reserved by Columbia Records, a division of Sony Music Entertainment\n\nReleased on: 1963-05-24\n\nProducer: Tom Wilso",
-      "duration": 200,
+      "uri": "https://www.youtube.com/watch?v=9GTJUR3TMA8",
+      "title": "Deftones – CMND/CTRL (Official Visualizer)",
+      "description": "Official visualizer for “CMND/CTRL” off our album, Diamond Eyes.\n \n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https://www.inst",
+      "duration": 146,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=JEmI_FT4YHU",
-      "title": "Bob Dylan - Masters of War (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Masters of War\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdylan.",
-      "duration": 273,
+      "uri": "https://www.youtube.com/watch?v=woAcXSMyCEw",
+      "title": "Deftones - You've Seen The Butcher [Official Music Video]",
+      "description": "Official Music Video for \"You've Seen The Butcher\" by Deftones, from the album 'Diamond Eyes'. \n\nListen to Deftones: https://bio.to/deftones  \n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.c",
+      "duration": 214,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=RDHiZYgUaVg",
-      "title": "Bob Dylan - Down the Highway (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Down the Highway\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdyla",
-      "duration": 207,
+      "uri": "https://www.youtube.com/watch?v=2bK4aeahcXc",
+      "title": "Deftones - Beauty School [Official Music Video]",
+      "description": "Deftones' official video for \"Beauty School\" from the album, Diamond Eyes.\n\nListen to Deftones: https://bio.to/deftones  \n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nW",
+      "duration": 282,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=dlKUUpAKqhE",
-      "title": "Bob Dylan - Bob Dylan's Blues (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Bob Dylan's Blues\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdyl",
-      "duration": 142,
+      "uri": "https://www.youtube.com/watch?v=8TxPkaMphV0",
+      "title": "Deftones – Prince (Official Visualizer)",
+      "description": "Official visualizer for “Prince” off our album, Diamond Eyes.\n \n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https://www.instagr",
+      "duration": 217,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=T5al0HmR4to",
-      "title": "Bob Dylan - A Hard Rain's A-Gonna Fall (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“A Hard Rain's A-Gonna Fall\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https",
-      "duration": 412,
+      "uri": "https://www.youtube.com/watch?v=woR6ohiFeYE",
+      "title": "Deftones - Rocket Skates [Official Music Video]",
+      "description": "Deftones' official video for \"Rocket Skates\" from the album, Diamond Eyes.\n\nListen to Deftones: https://bio.to/deftones  \n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nW",
+      "duration": 258,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=1iHhWh9FtsQ",
-      "title": "Bob Dylan - Don't Think Twice, It's All Right (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Don't Think Twice, It's All Right\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel",
+      "uri": "https://www.youtube.com/watch?v=f0pdwd0miqs",
+      "title": "Deftones - Sextape [Official Music Video]",
+      "description": "Official music video for \"Sextape\" by Deftones from the album Diamond Eyes. \n\nListen to Deftones: https://bio.to/deftones  \n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones",
+      "duration": 244,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=ifN91YvHj7g",
+      "title": "Deftones –  Risk (Official Visualizer)",
+      "description": "Official visualizer for “Risk” off our album, Diamond Eyes.\n \n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https://www.instagram",
       "duration": 219,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=WAgWklREPWI",
-      "title": "Bob Dylan - Bob Dylan's Dream (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Bob Dylan's Dream\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdyl",
-      "duration": 302,
+      "uri": "https://www.youtube.com/watch?v=y8Fy2HcuVcU",
+      "title": "Deftones – 976-EVIL (Official Visualizer)",
+      "description": "Official visualizer for “976-EVIL” off our album, Diamond Eyes.\n \n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https://www.insta",
+      "duration": 273,
       "embed": true
     },
     {
-      "uri": "https://www.youtube.com/watch?v=sb4PsXncNV8",
-      "title": "Bob Dylan - Oxford Town (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Oxford Town\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdylan.lnk",
-      "duration": 109,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=TYtVc56o9oo",
-      "title": "Bob Dylan - Talkin' World War III Blues (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\nOfficial Audio for \"Talkin' World War III Blues\" by Bob Dylan \nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan Y",
-      "duration": 387,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=66A5lrrl39E",
-      "title": "Bob Dylan - Corrina, Corrina (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n“Corrina, Corrina\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channel: https://bobdyla",
-      "duration": 163,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=l9uBYOWD_fo",
-      "title": "Bob Dylan - Honey, Just Allow Me One More Chance (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\n\"Honey, Just Allow Me One More Chance\" by Bob Dylan\nListen to Bob Dylan: https://BobDylan.lnk.to/ss_followYD\n \nSubscribe to the official Bob Dylan",
-      "duration": 120,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=r4DwpJTPR0U",
-      "title": "Bob Dylan - I Shall Be Free (Official Audio)",
-      "description": "The Bootleg Series Vol. 18: Through The Open Window, 1956-1963 out now: https://bobdylan.lnk.to/Bootleg18YD\n\nOfficial audio for \"I Shall Be Free\" by Bob Dylan\nListen to Bob Dylan: https://bobdylan.lnk.to/listenYD\n\nSubscribe to the Bob Dylan YouTube channe",
-      "duration": 290,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=Ycs6KLKU8GM",
-      "title": "Bob Dylan (The Freewheelin' Bob Dylan) - Side 1",
-      "description": "1. \"Blowin' in the Wind\" July 9, 1962 2:48\n2. \"Girl from the North Country\" April 24, 1963 3:22\n3. \"Masters of War\" April 24, 1963 4:34\n4. \"Down the Highway\" July 9, 1962 3:27\n5. \"Bob Dylan's Blues\" July 9, 1962 2:23\n6. \"A Hard Rain's A-Gonna Fall\" Decemb",
-      "duration": 0,
-      "embed": true
-    },
-    {
-      "uri": "https://www.youtube.com/watch?v=KveFV57CR54",
-      "title": "Bob Dylan (The Freewheelin' Bob Dylan) - Side 2",
-      "description": "1. \"Don't Think Twice, It's All Right\" November 14, 1962 3:40\n2. \"Bob Dylan's Dream\" April 24, 1963 5:03\n3. \"Oxford Town\" December 6, 1962 1:50\n4. \"Talkin' World War III Blues\" April 24, 1963 6:28\n5. \"Corrina, Corrina\" (traditional) October 26, 1962 2:44\n",
-      "duration": 0,
+      "uri": "https://www.youtube.com/watch?v=0UoXaSYIDjM",
+      "title": "Deftones – This Place Is Death (Official Visualizer)",
+      "description": "Official visualizer for “This Place Is Death” off our album, Diamond Eyes.\n\n🔔 Subscribe to the channel: https://youtube.com/c/deftones\n\nShop the official web store: https://shopdeftones.com\n\nFollow Deftones\nWebsite: https://deftones.com\nInstagram: https:/",
+      "duration": 229,
       "embed": true
     }
   ],
   "genres": [
-    "Folk, World, & Country"
+    "Rock"
   ],
   "styles": [
-    "Folk"
+    "Alternative Rock",
+    "Nu Metal"
   ],
   "tracklist": [
     {
-      "position": "A1",
+      "position": "1",
       "type_": "track",
-      "title": "Blowin' In The Wind",
+      "title": "Diamond Eyes",
       "extraartists": [
         {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
-    },
-    {
-      "position": "A2",
-      "type_": "track",
-      "title": "Rocks And Gravel",
-      "extraartists": [
-        {
-          "name": "Art Davis",
+          "name": "Chris Lord-Alge",
           "anv": "",
           "join": "",
-          "role": "Bass",
+          "role": "Mixed By",
           "tracks": "",
-          "id": 264868,
-          "resource_url": "https://api.discogs.com/artists/264868"
+          "id": 37765,
+          "resource_url": "https://api.discogs.com/artists/37765"
         },
         {
-          "name": "George Barnes",
+          "name": "Keith Armstrong",
           "anv": "",
           "join": "",
-          "role": "Bass Guitar",
+          "role": "Mixed By [Assistant]",
           "tracks": "",
-          "id": 272946,
-          "resource_url": "https://api.discogs.com/artists/272946"
+          "id": 375519,
+          "resource_url": "https://api.discogs.com/artists/375519"
         },
         {
-          "name": "Herbie Lovelle",
-          "anv": "Herb Lovelle",
-          "join": "",
-          "role": "Drums",
-          "tracks": "",
-          "id": 343297,
-          "resource_url": "https://api.discogs.com/artists/343297"
-        },
-        {
-          "name": "Bruce Langhorne",
+          "name": "Nik Karpen",
           "anv": "",
           "join": "",
-          "role": "Guitar",
+          "role": "Mixed By [Assistant]",
           "tracks": "",
-          "id": 271932,
-          "resource_url": "https://api.discogs.com/artists/271932"
-        },
-        {
-          "name": "Dick Wellstood",
-          "anv": "",
-          "join": "",
-          "role": "Piano",
-          "tracks": "",
-          "id": 878488,
-          "resource_url": "https://api.discogs.com/artists/878488"
-        },
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
+          "id": 907608,
+          "resource_url": "https://api.discogs.com/artists/907608"
         }
       ],
-      "duration": ""
+      "duration": "3:08"
     },
     {
-      "position": "A3",
+      "position": "2",
       "type_": "track",
-      "title": "A Hard Rain's A-gonna Fall",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "Royal",
+      "duration": "3:32"
     },
     {
-      "position": "A4",
+      "position": "3",
       "type_": "track",
-      "title": "Down The Highway",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "CMND/CTRL",
+      "duration": "2:26"
     },
     {
-      "position": "A5",
+      "position": "4",
       "type_": "track",
-      "title": "Bob Dylan's Blues",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "You've Seen The Butcher",
+      "duration": "3:31"
     },
     {
-      "position": "A6",
+      "position": "5",
       "type_": "track",
-      "title": "Let Me Die In My Footsteps",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "Beauty School",
+      "duration": "4:48"
     },
     {
-      "position": "B1",
+      "position": "6",
       "type_": "track",
-      "title": "Don't Think Twice, It's Alright",
-      "extraartists": [
-        {
-          "name": "George Barnes",
-          "anv": "",
-          "join": "",
-          "role": "Bass Guitar",
-          "tracks": "",
-          "id": 272946,
-          "resource_url": "https://api.discogs.com/artists/272946"
-        },
-        {
-          "name": "Gene Ramey",
-          "anv": "",
-          "join": "",
-          "role": "Bass [Bassist]",
-          "tracks": "",
-          "id": 251776,
-          "resource_url": "https://api.discogs.com/artists/251776"
-        },
-        {
-          "name": "Herbie Lovelle",
-          "anv": "Herb Lovelle",
-          "join": "",
-          "role": "Drums",
-          "tracks": "",
-          "id": 343297,
-          "resource_url": "https://api.discogs.com/artists/343297"
-        },
-        {
-          "name": "Bruce Langhorne",
-          "anv": "",
-          "join": "",
-          "role": "Guitar",
-          "tracks": "",
-          "id": 271932,
-          "resource_url": "https://api.discogs.com/artists/271932"
-        },
-        {
-          "name": "Dick Wellstood",
-          "anv": "",
-          "join": "",
-          "role": "Piano",
-          "tracks": "",
-          "id": 878488,
-          "resource_url": "https://api.discogs.com/artists/878488"
-        },
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "Prince",
+      "duration": "3:36"
     },
     {
-      "position": "B2",
+      "position": "7",
       "type_": "track",
-      "title": "Rambling, Gambling Willie",
-      "extraartists": [
-        {
-          "name": "Bill Lee (2)",
-          "anv": "",
-          "join": "",
-          "role": "Bass [Bassist]",
-          "tracks": "",
-          "id": 211398,
-          "resource_url": "https://api.discogs.com/artists/211398"
-        },
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "Rocket Skates",
+      "duration": "4:17"
     },
     {
-      "position": "B3",
+      "position": "8",
       "type_": "track",
-      "title": "Oxford Town",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "Sextape",
+      "duration": "4:01"
     },
     {
-      "position": "B4",
+      "position": "9",
       "type_": "track",
-      "title": "Corrina, Corrina",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Adapted By, Arranged By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        },
-        {
-          "name": "Leonard Gaskin",
-          "anv": "",
-          "join": "",
-          "role": "Bass",
-          "tracks": "",
-          "id": 263795,
-          "resource_url": "https://api.discogs.com/artists/263795"
-        },
-        {
-          "name": "Herbie Lovelle",
-          "anv": "Herb Lovelle",
-          "join": "",
-          "role": "Drums",
-          "tracks": "",
-          "id": 343297,
-          "resource_url": "https://api.discogs.com/artists/343297"
-        },
-        {
-          "name": "Bruce Langhorne",
-          "anv": "",
-          "join": "",
-          "role": "Guitar",
-          "tracks": "",
-          "id": 271932,
-          "resource_url": "https://api.discogs.com/artists/271932"
-        },
-        {
-          "name": "Howard Collins",
-          "anv": "Howie Collins",
-          "join": "",
-          "role": "Guitar",
-          "tracks": "",
-          "id": 282559,
-          "resource_url": "https://api.discogs.com/artists/282559"
-        },
-        {
-          "name": "Dick Wellstood",
-          "anv": "",
-          "join": "",
-          "role": "Piano",
-          "tracks": "",
-          "id": 878488,
-          "resource_url": "https://api.discogs.com/artists/878488"
-        }
-      ],
-      "duration": ""
+      "title": "Risk",
+      "duration": "3:39"
     },
     {
-      "position": "B5",
+      "position": "10",
       "type_": "track",
-      "title": "Talkin' John Birch Paranoid Blues",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "976-EVIL",
+      "duration": "4:32"
     },
     {
-      "position": "B6",
+      "position": "11",
       "type_": "track",
-      "title": "Honey, Just Allow Me One More Chance",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        },
-        {
-          "name": "Henry Thomas",
-          "anv": "H. Thomas",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 412679,
-          "resource_url": "https://api.discogs.com/artists/412679"
-        }
-      ],
-      "duration": ""
-    },
-    {
-      "position": "B7",
-      "type_": "track",
-      "title": "I Shall Be Free",
-      "extraartists": [
-        {
-          "name": "Bob Dylan",
-          "anv": "B. Dylan",
-          "join": "",
-          "role": "Written-By",
-          "tracks": "",
-          "id": 59792,
-          "resource_url": "https://api.discogs.com/artists/59792"
-        }
-      ],
-      "duration": ""
+      "title": "This Place Is Death",
+      "duration": "3:49"
     }
   ],
   "extraartists": [
     {
-      "name": "Jeff Powell",
-      "anv": "J Powell",
+      "name": "David Benveniste",
+      "anv": "David Benveniste (Beno)",
       "join": "",
-      "role": "Lacquer Cut By",
+      "role": "A&R",
       "tracks": "",
-      "id": 427871,
-      "resource_url": "https://api.discogs.com/artists/427871"
+      "id": 1717831,
+      "resource_url": "https://api.discogs.com/artists/1717831"
     },
     {
-      "name": "Nat Hentoff",
+      "name": "Kevin Williamson (2)",
       "anv": "",
       "join": "",
-      "role": "Liner Notes",
+      "role": "A&R [For Warner Bros. Records]",
       "tracks": "",
-      "id": 332791,
-      "resource_url": "https://api.discogs.com/artists/332791"
+      "id": 1832242,
+      "resource_url": "https://api.discogs.com/artists/1832242"
     },
     {
-      "name": "Don Hunstein",
+      "name": "Sergio Vega",
       "anv": "",
       "join": "",
-      "role": "Photography By [Cover Photo]",
+      "role": "Bass",
       "tracks": "",
-      "id": 1905443,
-      "resource_url": "https://api.discogs.com/artists/1905443"
+      "id": 413157,
+      "resource_url": "https://api.discogs.com/artists/413157"
     },
     {
-      "name": "John Hammond",
+      "name": "Frank Maddocks",
       "anv": "",
       "join": "",
-      "role": "Producer [Produced By]",
+      "role": "Creative Director [Creative Direction], Design",
       "tracks": "",
-      "id": 252830,
-      "resource_url": "https://api.discogs.com/artists/252830"
+      "id": 655350,
+      "resource_url": "https://api.discogs.com/artists/655350"
+    },
+    {
+      "name": "Bill Head",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 1870138,
+      "resource_url": "https://api.discogs.com/artists/1870138"
+    },
+    {
+      "name": "Eddie Kercher",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 1870136,
+      "resource_url": "https://api.discogs.com/artists/1870136"
+    },
+    {
+      "name": "Juan Gonzales",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 364451,
+      "resource_url": "https://api.discogs.com/artists/364451"
+    },
+    {
+      "name": "Ken Denson",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 1870135,
+      "resource_url": "https://api.discogs.com/artists/1870135"
+    },
+    {
+      "name": "Scott Farris",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 1870137,
+      "resource_url": "https://api.discogs.com/artists/1870137"
+    },
+    {
+      "name": "Sean Bates",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 611297,
+      "resource_url": "https://api.discogs.com/artists/611297"
+    },
+    {
+      "name": "Ted Whitacre",
+      "anv": "",
+      "join": "",
+      "role": "Crew [Touring]",
+      "tracks": "",
+      "id": 1870134,
+      "resource_url": "https://api.discogs.com/artists/1870134"
+    },
+    {
+      "name": "Abe Cunningham",
+      "anv": "",
+      "join": "",
+      "role": "Drums",
+      "tracks": "",
+      "id": 436235,
+      "resource_url": "https://api.discogs.com/artists/436235"
+    },
+    {
+      "name": "Andrew Schubert",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Additional]",
+      "tracks": "",
+      "id": 1457896,
+      "resource_url": "https://api.discogs.com/artists/1457896"
+    },
+    {
+      "name": "Brad Townsend",
+      "anv": "",
+      "join": "",
+      "role": "Engineer [Additional]",
+      "tracks": "",
+      "id": 1457897,
+      "resource_url": "https://api.discogs.com/artists/1457897"
+    },
+    {
+      "name": "Tom Whalley",
+      "anv": "",
+      "join": "",
+      "role": "Executive-Producer",
+      "tracks": "",
+      "id": 1364855,
+      "resource_url": "https://api.discogs.com/artists/1364855"
+    },
+    {
+      "name": "Frank Delgado",
+      "anv": "",
+      "join": "",
+      "role": "Keyboards [Keys], Sampler [Samples]",
+      "tracks": "",
+      "id": 436234,
+      "resource_url": "https://api.discogs.com/artists/436234"
+    },
+    {
+      "name": "Jeffrey Light",
+      "anv": "Jeffrey Taylor Light",
+      "join": "",
+      "role": "Legal",
+      "tracks": "",
+      "id": 2150009,
+      "resource_url": "https://api.discogs.com/artists/2150009"
+    },
+    {
+      "name": "Myman, Abell, Fineman, Greenspan & Light, LLP",
+      "anv": "Myman, Abell, Fineman, Fox, Greenspan & Light, LLP",
+      "join": "",
+      "role": "Legal",
+      "tracks": "",
+      "id": 3970259,
+      "resource_url": "https://api.discogs.com/artists/3970259"
+    },
+    {
+      "name": "David Weise & Associates",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Management For]",
+      "tracks": "",
+      "id": 2369981,
+      "resource_url": "https://api.discogs.com/artists/2369981"
+    },
+    {
+      "name": "David Weise",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Management]",
+      "tracks": "",
+      "id": 1733212,
+      "resource_url": "https://api.discogs.com/artists/1733212"
+    },
+    {
+      "name": "Sue Davidian",
+      "anv": "",
+      "join": "",
+      "role": "Management [Business Management]",
+      "tracks": "",
+      "id": 1870133,
+      "resource_url": "https://api.discogs.com/artists/1870133"
+    },
+    {
+      "name": "Creative Artists Agency",
+      "anv": "CAA",
+      "join": "",
+      "role": "Management [North American Agent]",
+      "tracks": "",
+      "id": 2623597,
+      "resource_url": "https://api.discogs.com/artists/2623597"
+    },
+    {
+      "name": "Jenna Adler",
+      "anv": "",
+      "join": "",
+      "role": "Management [North American Agent]",
+      "tracks": "",
+      "id": 1922186,
+      "resource_url": "https://api.discogs.com/artists/1922186"
+    },
+    {
+      "name": "ITB",
+      "anv": "",
+      "join": "",
+      "role": "Management [Rest Of World]",
+      "tracks": "",
+      "id": 458406,
+      "resource_url": "https://api.discogs.com/artists/458406"
+    },
+    {
+      "name": "Mike Dewdney",
+      "anv": "",
+      "join": "",
+      "role": "Management [Rest Of World]",
+      "tracks": "",
+      "id": 1941645,
+      "resource_url": "https://api.discogs.com/artists/1941645"
+    },
+    {
+      "name": "Creative Artists Agency",
+      "anv": "CAA",
+      "join": "",
+      "role": "Management [South American Agent]",
+      "tracks": "",
+      "id": 2623597,
+      "resource_url": "https://api.discogs.com/artists/2623597"
+    },
+    {
+      "name": "Marlene Tsuchii",
+      "anv": "",
+      "join": "",
+      "role": "Management [South American Agent]",
+      "tracks": "",
+      "id": 1942060,
+      "resource_url": "https://api.discogs.com/artists/1942060"
+    },
+    {
+      "name": "Velvet Hammer Music And Management Group",
+      "anv": "",
+      "join": "",
+      "role": "Management [Worldwide Representation]",
+      "tracks": "",
+      "id": 2218662,
+      "resource_url": "https://api.discogs.com/artists/2218662"
+    },
+    {
+      "name": "Ted Jensen",
+      "anv": "",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 259758,
+      "resource_url": "https://api.discogs.com/artists/259758"
+    },
+    {
+      "name": "Nick Raskulinecz",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "2 to 11",
+      "id": 264471,
+      "resource_url": "https://api.discogs.com/artists/264471"
+    },
+    {
+      "name": "13th Witness",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Band]",
+      "tracks": "",
+      "id": 3915622,
+      "resource_url": "https://api.discogs.com/artists/3915622"
+    },
+    {
+      "name": "John Ross (8)",
+      "anv": "",
+      "join": "",
+      "role": "Photography By [Owl]",
+      "tracks": "",
+      "id": 2237303,
+      "resource_url": "https://api.discogs.com/artists/2237303"
+    },
+    {
+      "name": "Nick Raskulinecz",
+      "anv": "",
+      "join": "",
+      "role": "Producer",
+      "tracks": "",
+      "id": 264471,
+      "resource_url": "https://api.discogs.com/artists/264471"
+    },
+    {
+      "name": "Paul Fig",
+      "anv": "Paul \"Fig\" Figueroa",
+      "join": "",
+      "role": "Recorded By, Engineer",
+      "tracks": "",
+      "id": 571685,
+      "resource_url": "https://api.discogs.com/artists/571685"
+    },
+    {
+      "name": "Stephen Carpenter",
+      "anv": "",
+      "join": "",
+      "role": "Strings",
+      "tracks": "",
+      "id": 441454,
+      "resource_url": "https://api.discogs.com/artists/441454"
+    },
+    {
+      "name": "Chino Moreno",
+      "anv": "",
+      "join": "",
+      "role": "Vocals, Guitar",
+      "tracks": "",
+      "id": 183333,
+      "resource_url": "https://api.discogs.com/artists/183333"
+    },
+    {
+      "name": "Deftones",
+      "anv": "",
+      "join": "",
+      "role": "Written-By, Performer",
+      "tracks": "",
+      "id": 12210,
+      "resource_url": "https://api.discogs.com/artists/12210"
     }
   ],
   "images": [
     {
       "type": "primary",
-      "uri": "https://i.discogs.com/xaIp4ZJ35yFlxl_z-sha5bgxI1Kk9ODZ9vm7WHRqSFo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNTUzNC5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/xaIp4ZJ35yFlxl_z-sha5bgxI1Kk9ODZ9vm7WHRqSFo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNTUzNC5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/P5SP1fdlfZaJg7YbMoFN2gmTWfD2PghGIdA3LIq5EDQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNTUzNC5qcGVn.jpeg",
-      "width": 600,
-      "height": 600
+      "uri": "https://i.discogs.com/XgDtZqKBSwgLYFAPYtLfznF8wFBgUcXAeUcgPkdDKMY/rs:fit/g:sm/q:90/h:583/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NS0zODQ4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/XgDtZqKBSwgLYFAPYtLfznF8wFBgUcXAeUcgPkdDKMY/rs:fit/g:sm/q:90/h:583/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NS0zODQ4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/LsRZEVriYHf-JPyTS1D30LNTet-TZAyz7qEx7i0UrJM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NS0zODQ4LmpwZWc.jpeg",
+      "width": 570,
+      "height": 583
     },
     {
       "type": "secondary",
-      "uri": "https://i.discogs.com/qY1YAWPsmTcuA23proZ-VJRu5r3C60cInaAYEP9gtn8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzUtNTY4Ny5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/qY1YAWPsmTcuA23proZ-VJRu5r3C60cInaAYEP9gtn8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzUtNTY4Ny5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/LefDvQeJAxsnN4qx1TsJbpN4_VXjzN4A8nkrey0zREw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzUtNTY4Ny5qcGVn.jpeg",
-      "width": 600,
-      "height": 600
+      "uri": "https://i.discogs.com/baw2GfyNqTRFPQoQMVVgggHmjHfuua53tH3L9Jq0JEw/rs:fit/g:sm/q:90/h:344/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/My0zNjk1LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/baw2GfyNqTRFPQoQMVVgggHmjHfuua53tH3L9Jq0JEw/rs:fit/g:sm/q:90/h:344/w:576/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/My0zNjk1LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/9T2E0DuMZrhSa36E1xkK-FKzrzoY9gqV3KVVwJTjViU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/My0zNjk1LmpwZWc.jpeg",
+      "width": 576,
+      "height": 344
     },
     {
       "type": "secondary",
-      "uri": "https://i.discogs.com/R71dYqS62LrjwQpqhn4Cm8n79DCwRGvM9YlP-w2gYw4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDMyNy5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/R71dYqS62LrjwQpqhn4Cm8n79DCwRGvM9YlP-w2gYw4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDMyNy5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/vDhdjfDLRSqU7WSB2oYjzAiYRqlLAVYzLF2bCRLVI0c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDMyNy5qcGVn.jpeg",
-      "width": 600,
-      "height": 600
+      "uri": "https://i.discogs.com/KqRWJumbI7l1jsybukjPxG52bchb9nArU1s7o1X0Yxw/rs:fit/g:sm/q:90/h:456/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NC00NjU4LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/KqRWJumbI7l1jsybukjPxG52bchb9nArU1s7o1X0Yxw/rs:fit/g:sm/q:90/h:456/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NC00NjU4LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/0_tMt9Bg_dlVJ3bb4x7Xg3EMhbADozPhKztzSnmQEJQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NC00NjU4LmpwZWc.jpeg",
+      "width": 595,
+      "height": 456
     },
     {
       "type": "secondary",
-      "uri": "https://i.discogs.com/bgU2P-SpYaHVzF4zWgLmMwAVyJ_2ZNrsY93RZnovh1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDk2MS5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/bgU2P-SpYaHVzF4zWgLmMwAVyJ_2ZNrsY93RZnovh1g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDk2MS5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/5IOSRdNeCpwPBkf0yV9xzy1RiGQHT5I7XFmnH6rd83s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNDk2MS5qcGVn.jpeg",
-      "width": 600,
-      "height": 600
-    },
-    {
-      "type": "secondary",
-      "uri": "https://i.discogs.com/FneS0y2zvvUHvxh464Z8oCp7A-fe6hNqNgWuyOtnhek/rs:fit/g:sm/q:90/h:181/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNzQ2Ni5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/FneS0y2zvvUHvxh464Z8oCp7A-fe6hNqNgWuyOtnhek/rs:fit/g:sm/q:90/h:181/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNzQ2Ni5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/RJLF-WKT1NgaO-Tz7PmWwf36UoclR2e2J41ctEc5SZY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNzQ2Ni5qcGVn.jpeg",
-      "width": 600,
-      "height": 181
-    },
-    {
-      "type": "secondary",
-      "uri": "https://i.discogs.com/VeGi_TjvtxR1vfbsOGsyogMwh5ipBoCXI377VKuN6nw/rs:fit/g:sm/q:90/h:212/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQxNzgw/OTItNTkzMi5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/VeGi_TjvtxR1vfbsOGsyogMwh5ipBoCXI377VKuN6nw/rs:fit/g:sm/q:90/h:212/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQxNzgw/OTItNTkzMi5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/qbueoo5n_blv20lu71wjuXlkOYi_mZRAaAwpp6IQEUM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQxNzgw/OTItNTkzMi5qcGVn.jpeg",
-      "width": 600,
-      "height": 212
-    },
-    {
-      "type": "secondary",
-      "uri": "https://i.discogs.com/YjbeOGnkw8s40qFz0yrp2Ty1sruy6cckd2XbLzdzYEE/rs:fit/g:sm/q:90/h:13/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNjUyMC5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/YjbeOGnkw8s40qFz0yrp2Ty1sruy6cckd2XbLzdzYEE/rs:fit/g:sm/q:90/h:13/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNjUyMC5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/tVfHK2qy9rxo_lp0jWW3PlxVo-N8N0UUhAYpgyRb2Uk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtNjUyMC5qcGVn.jpeg",
-      "width": 600,
-      "height": 13
-    },
-    {
-      "type": "secondary",
-      "uri": "https://i.discogs.com/eRYNY5MBj-CxqbPpEsSc63eUgmqr1touw2vVy1noJIA/rs:fit/g:sm/q:90/h:31/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtMTU1MS5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/eRYNY5MBj-CxqbPpEsSc63eUgmqr1touw2vVy1noJIA/rs:fit/g:sm/q:90/h:31/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtMTU1MS5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/DmzryfRJvpoobHMB93W_gPL6GOt-ymhwU2xOD1Zo_W0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzMtMTU1MS5qcGVn.jpeg",
-      "width": 600,
-      "height": 31
-    },
-    {
-      "type": "secondary",
-      "uri": "https://i.discogs.com/ZmiPM1pkNlHQtgCtDyGF8hWcm5HKyeNHos5kPlM-NnM/rs:fit/g:sm/q:90/h:600/w:479/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtMjg1OS5qcGVn.jpeg",
-      "resource_url": "https://i.discogs.com/ZmiPM1pkNlHQtgCtDyGF8hWcm5HKyeNHos5kPlM-NnM/rs:fit/g:sm/q:90/h:600/w:479/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtMjg1OS5qcGVn.jpeg",
-      "uri150": "https://i.discogs.com/RrTCtRDDOA2oUeOni0v_-KZj0qldbZEp7BnstrN71Wo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtMjg1OS5qcGVn.jpeg",
-      "width": 479,
-      "height": 600
+      "uri": "https://i.discogs.com/ngXtY4xcZn_Ep905_hBVv7QXc1kM-iM5BrVHT6W9Y_M/rs:fit/g:sm/q:90/h:464/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/Ny0xMzQwLmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/ngXtY4xcZn_Ep905_hBVv7QXc1kM-iM5BrVHT6W9Y_M/rs:fit/g:sm/q:90/h:464/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/Ny0xMzQwLmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/eCwVGZdNJP2dnUuF7OuS0waDge8C0SqNnFh2TjPQxTw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/Ny0xMzQwLmpwZWc.jpeg",
+      "width": 594,
+      "height": 464
     }
   ],
-  "thumb": "https://i.discogs.com/P5SP1fdlfZaJg7YbMoFN2gmTWfD2PghGIdA3LIq5EDQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Nzcw/NjA5LTE3NjQyMDU3/NzQtNTUzNC5qcGVn.jpeg",
-  "estimated_weight": 230,
+  "thumb": "https://i.discogs.com/LsRZEVriYHf-JPyTS1D30LNTet-TZAyz7qEx7i0UrJM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzcw/MzAtMTQ0MDE4NDAz/NS0zODQ4LmpwZWc.jpeg",
+  "estimated_weight": 85,
   "blocked_from_sale": false,
   "is_offensive": false
 }
