@@ -3,25 +3,29 @@ package discogs
 import (
 	"context"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"net/http"
 	"time"
 )
 
-// TODO: caller must provide a User-Agent
-const UserAgent = "DiscogsClient github.com/fredericomozzato/discogs_client"
-
 type Client struct {
 	httpClient *http.Client
 	url        string
+	userAgent  string
 }
 
-func NewClient() *Client {
+func NewClient(url string, timeout int, userAgent string) *Client {
 	return &Client{
-		httpClient: &http.Client{Timeout: 30 * time.Second},
-		url:        "https://api.discogs.com",
+		httpClient: &http.Client{Timeout: time.Duration(timeout) * time.Second},
+		url:        url,
+		userAgent:  userAgent,
 	}
+}
+
+func NewDefaultClient(userAgent string) *Client {
+	defaultURL := "https://api.discogs.com"
+	defaultTimeout := 30
+	return NewClient(defaultURL, defaultTimeout, userAgent)
 }
 
 func (c *Client) GetRelease(ctx context.Context, id int) (*Release, error) {
@@ -35,7 +39,7 @@ func (c *Client) GetRelease(ctx context.Context, id int) (*Release, error) {
 		return nil, fmt.Errorf("request error: %w", err)
 	}
 
-	req.Header.Add("User-Agent", UserAgent)
+	req.Header.Add("User-Agent", c.userAgent)
 
 	res, err := c.httpClient.Do(req)
 	if err != nil {
@@ -45,7 +49,7 @@ func (c *Client) GetRelease(ctx context.Context, id int) (*Release, error) {
 	defer res.Body.Close()
 
 	if res.StatusCode != http.StatusOK {
-		return nil, errors.New(fmt.Sprintf("unexpected HTTP status: %d\n", res.StatusCode))
+		return nil, fmt.Errorf("unexpected HTTP status: %d", res.StatusCode)
 	}
 
 	var release Release
