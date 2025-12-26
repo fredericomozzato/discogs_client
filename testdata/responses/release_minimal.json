@@ -53,7 +53,7 @@
   "data_quality": "Correct",
   "community": {
     "have": 150,
-    "want": 75,
+    "want": 300,
     "rating": {
       "count": 50,
       "average": 4.5

@@ -6,6 +6,7 @@ import (
 	"net/http/httptest"
 	"os"
 	"testing"
+	"time"
 )
 
 func TestGetRelease(t *testing.T) {
@@ -182,6 +183,72 @@ func TestGetRelease(t *testing.T) {
 		}
 		if format.Text != "Black" {
 			t.Errorf("got Format Text %q, want %q", format.Text, "Black")
+		}
+
+		if release.DataQuality != "Correct" {
+			t.Errorf("got Data Quality %q, want %q", release.DataQuality, "Correct")
+		}
+
+		community := release.Community
+		if community.Have != 150 {
+			t.Errorf("got Community Have %d, want %d", community.Have, 150)
+		}
+		if community.Want != 300 {
+			t.Errorf("got Community Want %d, want %d", community.Want, 300)
+		}
+
+		rating := community.Rating
+		if rating.Count != 50 {
+			t.Errorf("got Community Rating Count %d, want %d", rating.Count, 50)
+		}
+		if rating.Average != 4.5 {
+			t.Errorf("got Community Rating Average %f, want %f", rating.Average, 4.5)
+		}
+
+		submitter := community.Submitter
+		if submitter.Username != "test_user" {
+			t.Errorf("got Community Submitter Username %q, want %q", submitter.Username, "test_user")
+		}
+		if submitter.ResourceURL != "https://api.discogs.com/users/test_user" {
+			t.Errorf("got Community Submitter ResourceUrl %q, want %q", submitter.ResourceURL, "https://api.discogs.com/users/test_user")
+		}
+
+		contributors := community.Contributors
+		if len(contributors) != 1 {
+			t.Errorf("got Community Contributors length %d, want %d", len(contributors), 1)
+		}
+		contributor := contributors[0]
+		if contributor.Username != "contributor1" {
+			t.Errorf("got Community Contributor Username %q, want %q", contributor.Username, "contributer1")
+		}
+		if contributor.ResourceURL != "https://api.discogs.com/users/contributor1" {
+			t.Errorf("got Community Contributor Resource URL %q, want %q", contributor.ResourceURL, "https://api.discogs.com/users/contributor1")
+		}
+		if community.DataQuality != "Correct" {
+			t.Errorf("got Community Data Quality %q, want %q", community.DataQuality, "Correct")
+		}
+		if community.Status != "Accepted" {
+			t.Errorf("got Community Status %q, want %q", community.Status, "Accepted")
+		}
+
+		if release.FormatQuantity != 1 {
+			t.Errorf("got Format Quantity %d, want %d", release.FormatQuantity, 1)
+		}
+
+		parsedDateAdded, err := time.Parse(time.RFC3339, "2020-05-15T10:30:00-07:00")
+		if err != nil {
+			t.Fatal("failed to parse release.DateAdded")
+		}
+		if release.DateAdded != parsedDateAdded {
+			t.Errorf("got Date Added %v, want %v", release.DateAdded, "2020-05-15T10:30:00-07:00")
+		}
+
+		parsedDateChanged, err := time.Parse(time.RFC3339, "2020-06-20T14:45:00-07:00")
+		if err != nil {
+			t.Fatal("failed to parse release.DateChanged")
+		}
+		if release.DateChanged != parsedDateChanged {
+			t.Errorf("got Date Changed %v, want %v", release.DateChanged, parsedDateChanged)
 		}
 	})
 }
