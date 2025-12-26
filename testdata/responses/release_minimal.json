@@ -1,0 +1,164 @@
+{
+  "id": 12345,
+  "status": "Accepted",
+  "year": 2020,
+  "resource_url": "https://api.discogs.com/releases/12345",
+  "uri": "https://www.discogs.com/release/12345-Test-Artist-Test-Album",
+  "artists": [
+    {
+      "name": "Test Artist",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 100,
+      "resource_url": "https://api.discogs.com/artists/100",
+      "thumbnail_url": ""
+    }
+  ],
+  "artists_sort": "Test Artist",
+  "labels": [
+    {
+      "name": "Test Label",
+      "catno": "TEST001",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 200,
+      "resource_url": "https://api.discogs.com/labels/200",
+      "thumbnail_url": ""
+    }
+  ],
+  "companies": [
+    {
+      "name": "Test Company",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 300,
+      "resource_url": "https://api.discogs.com/labels/300",
+      "thumbnail_url": ""
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "LP",
+        "Album"
+      ],
+      "text": "Black"
+    }
+  ],
+  "data_quality": "Correct",
+  "community": {
+    "have": 150,
+    "want": 75,
+    "rating": {
+      "count": 50,
+      "average": 4.5
+    },
+    "submitter": {
+      "username": "test_user",
+      "resource_url": "https://api.discogs.com/users/test_user"
+    },
+    "contributors": [
+      {
+        "username": "contributor1",
+        "resource_url": "https://api.discogs.com/users/contributor1"
+      }
+    ],
+    "data_quality": "Correct",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2020-05-15T10:30:00-07:00",
+  "date_changed": "2020-06-20T14:45:00-07:00",
+  "num_for_sale": 10,
+  "lowest_price": 25.99,
+  "master_id": 54321,
+  "master_url": "https://api.discogs.com/masters/54321",
+  "title": "Test Album",
+  "country": "US",
+  "released": "2020-05-01",
+  "notes": "Test release notes.",
+  "released_formatted": "01 May 2020",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "123456789012",
+      "description": ""
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=test123",
+      "title": "Test Video",
+      "description": "Official Music Video",
+      "duration": 240,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Rock",
+    "Electronic"
+  ],
+  "styles": [
+    "Indie Rock",
+    "Synth-pop"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Test Track 1",
+      "extraartists": [
+        {
+          "name": "Test Producer",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 400,
+          "resource_url": "https://api.discogs.com/artists/400",
+          "thumbnail_url": ""
+        }
+      ],
+      "duration": "3:45"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Test Track 2",
+      "extraartists": [],
+      "duration": "4:20"
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Test Mixer",
+      "anv": "",
+      "join": "",
+      "role": "Mixed By",
+      "tracks": "",
+      "id": 500,
+      "resource_url": "https://api.discogs.com/artists/500",
+      "thumbnail_url": ""
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://img.discogs.com/test-image.jpg",
+      "resource_url": "https://img.discogs.com/test-image.jpg",
+      "uri150": "https://img.discogs.com/test-image-150.jpg",
+      "width": 600,
+      "height": 600
+    }
+  ],
+  "thumb": "https://img.discogs.com/test-thumb.jpg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false,
+  "series": []
+}
