@@ -80,9 +80,9 @@
   "master_url": "https://api.discogs.com/masters/54321",
   "title": "Test Album",
   "country": "US",
-  "released": "2020-05-01",
+  "released": "2017-04-07",
   "notes": "Test release notes.",
-  "released_formatted": "01 May 2020",
+  "released_formatted": "07 April 2017",
   "identifiers": [
     {
       "type": "Barcode",

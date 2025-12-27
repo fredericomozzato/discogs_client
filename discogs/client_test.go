@@ -239,7 +239,7 @@ func TestGetRelease(t *testing.T) {
 		if err != nil {
 			t.Fatal("failed to parse release.DateAdded")
 		}
-		if release.DateAdded != parsedDateAdded {
+		if !release.DateAdded.Equal(parsedDateAdded) {
 			t.Errorf("got Date Added %v, want %v", release.DateAdded, "2020-05-15T10:30:00-07:00")
 		}
 
@@ -247,8 +247,196 @@ func TestGetRelease(t *testing.T) {
 		if err != nil {
 			t.Fatal("failed to parse release.DateChanged")
 		}
-		if release.DateChanged != parsedDateChanged {
+		if !release.DateChanged.Equal(parsedDateChanged) {
 			t.Errorf("got Date Changed %v, want %v", release.DateChanged, parsedDateChanged)
+		}
+		if release.NumForSale != 10 {
+			t.Errorf("got NumForSale %d, want %d", release.NumForSale, 10)
+		}
+		if release.LowestPrice != 25.99 {
+			t.Errorf("got Lowest Price %f, want %f", release.LowestPrice, 25.99)
+		}
+		if release.MasterID != 54321 {
+			t.Errorf("got Master ID %d, want %d", release.MasterID, 54321)
+		}
+		if release.MasterURL != "https://api.discogs.com/masters/54321" {
+			t.Errorf("got Master URL %q, want %q", release.MasterURL, "https://api.discogs.com/masters/54321")
+		}
+		if release.Title != "Test Album" {
+			t.Errorf("got Title %q, want %q", release.Title, "Test Album")
+		}
+		if release.Country != "US" {
+			t.Errorf("got Country %q, want %q", release.Country, "US")
+		}
+		if release.ReleaseDate != "2017-04-07" {
+			t.Errorf("got Release Date %q, want %q", release.ReleaseDate, "2017-04-07")
+		}
+		if release.Notes != "Test release notes." {
+			t.Errorf("got Notes %q, want %q", release.Notes, "Test release notes.")
+		}
+		if release.ReleaseDateFormatted != "07 April 2017" {
+			t.Errorf("got Release Date Formatted %q, want %q", release.ReleaseDateFormatted, "07 April 2017")
+		}
+
+		identifiers := release.Identifiers
+		if len(identifiers) != 1 {
+			t.Errorf("got Identifiers length %d, want %d", len(identifiers), 1)
+		}
+		identifier := identifiers[0]
+		if identifier.Type != "Barcode" {
+			t.Errorf("got Identifier Type %q, want %q", identifier.Type, "Barcode")
+		}
+		if identifier.Value != "123456789012" {
+			t.Errorf("got Identifier Value %q, want %q", identifier.Value, "123456789012")
+		}
+		if identifier.Description != "" {
+			t.Errorf("got Identifier Description %q, want empty string", identifier.Description)
+		}
+
+		videos := release.Videos
+		if len(videos) != 1 {
+			t.Errorf("got Videos length %d, want %d", len(videos), 1)
+		}
+		video := videos[0]
+		if video.URI != "https://www.youtube.com/watch?v=test123" {
+			t.Errorf("got Video URI %q, want %q", video.URI, "https://www.youtube.com/watch?v=test123")
+		}
+		if video.Title != "Test Video" {
+			t.Errorf("got Video Title %q, want %q", video.Title, "Test Video")
+		}
+		if video.Description != "Official Music Video" {
+			t.Errorf("got Video Description %q, want %q", video.Description, "Official Music Video")
+		}
+		if video.Duration != 240 {
+			t.Errorf("got Video Duration %d, want %d", video.Duration, 240)
+		}
+		if video.Embed != true {
+			t.Errorf("got Video Embed %v, want %v", video.Embed, true)
+		}
+
+		genres := release.Genres
+		if len(genres) != 2 {
+			t.Errorf("got Genres length %d, want %d", len(genres), 2)
+		}
+		if genres[0] != "Rock" {
+			t.Errorf("got Genre %q, want %q", genres[0], "Rock")
+		}
+		if genres[1] != "Electronic" {
+			t.Errorf("got Genre %q, want %q", genres[1], "Electronic")
+		}
+
+		styles := release.Styles
+		if len(styles) != 2 {
+			t.Errorf("got Styles length %d, %d", len(styles), 2)
+		}
+		if styles[0] != "Indie Rock" {
+			t.Errorf("got Style %q, want %q", styles[0], "Indie Rock")
+		}
+		if styles[1] != "Synth-pop" {
+			t.Errorf("got Style %q, want %q", styles[1], "Synth-pop")
+		}
+
+		tracklist := release.Tracklist
+		if len(tracklist) != 2 {
+			t.Errorf("got Tracklist length %d, want %d", len(tracklist), 2)
+		}
+		track1 := tracklist[0]
+		if track1.Position != "A1" {
+			t.Errorf("got Track 1 Position %q, want %q", track1.Position, "A1")
+		}
+		if track1.Type != "track" {
+			t.Errorf("got Track Type %q, want %q", track1.Type, "track")
+		}
+		if track1.Title != "Test Track 1" {
+			t.Errorf("got Track 1 Title %q, want %q", track1.Title, "Test Track 1")
+		}
+		if track1.Duration != "3:45" {
+			t.Errorf("got Track 1 Duration %q, want %q", track1.Duration, "3:45")
+		}
+		if len(track1.ExtraArtists) != 1 {
+			t.Errorf("got Track 1 ExtraArtists length %d, want %d", len(track1.ExtraArtists), 1)
+		}
+		trackArtist := track1.ExtraArtists[0]
+		if trackArtist.Name != "Test Producer" {
+			t.Errorf("got Track 1 ExtraArtist Name %q, want %q", trackArtist.Name, "Test Producer")
+		}
+		if trackArtist.Role != "Producer" {
+			t.Errorf("got Track 1 ExtraArtist Role %q, want %q", trackArtist.Role, "Producer")
+		}
+		if trackArtist.ID != 400 {
+			t.Errorf("got Track 1 ExtraArtist ID %d, want %d", trackArtist.ID, 400)
+		}
+
+		track2 := tracklist[1]
+		if track2.Position != "A2" {
+			t.Errorf("got Track 2 Position %q, want %q", track2.Position, "A2")
+		}
+		if track2.Type != "track" {
+			t.Errorf("got Track 2 Type %q, want %q", track2.Type, "track")
+		}
+		if track2.Title != "Test Track 2" {
+			t.Errorf("got Track 2 Title %q, want %q", track2.Title, "Test Track 2")
+		}
+		if track2.Duration != "4:20" {
+			t.Errorf("got Track 2 Duration %q, want %q", track2.Duration, "4:20")
+		}
+		if len(track2.ExtraArtists) != 0 {
+			t.Errorf("got Track 2 ExtraArtists length %d, want %d", len(track2.ExtraArtists), 0)
+		}
+
+		extraArtists := release.ExtraArtists
+		if len(extraArtists) != 1 {
+			t.Errorf("got ExtraArtists length %d, want %d", len(extraArtists), 1)
+		}
+		extraArtist := extraArtists[0]
+		if extraArtist.Name != "Test Mixer" {
+			t.Errorf("got ExtraArtist Name %q, want %q", extraArtist.Name, "Test Mixer")
+		}
+		if extraArtist.Role != "Mixed By" {
+			t.Errorf("got ExtraArtist Role %q, want %q", extraArtist.Role, "Mixed By")
+		}
+		if extraArtist.ID != 500 {
+			t.Errorf("got ExtraArtist ID %d, want %d", extraArtist.ID, 500)
+		}
+
+		images := release.Images
+		if len(images) != 1 {
+			t.Errorf("got Images length %d, want %d", len(images), 1)
+		}
+		image := images[0]
+		if image.Type != "primary" {
+			t.Errorf("got Image Type %q, want %q", image.Type, "primary")
+		}
+		if image.URI != "https://img.discogs.com/test-image.jpg" {
+			t.Errorf("got Image URI %q, want %q", image.URI, "https://img.discogs.com/test-image.jpg")
+		}
+		if image.ResourceURL != "https://img.discogs.com/test-image.jpg" {
+			t.Errorf("got Image ResourceURL %q, want %q", image.ResourceURL, "https://img.discogs.com/test-image.jpg")
+		}
+		if image.URI150 != "https://img.discogs.com/test-image-150.jpg" {
+			t.Errorf("got Image URI150 %q, want %q", image.URI150, "https://img.discogs.com/test-image-150.jpg")
+		}
+		if image.Width != 600 {
+			t.Errorf("got Image Width %d, want %d", image.Width, 600)
+		}
+		if image.Height != 600 {
+			t.Errorf("got Image Height %d, want %d", image.Height, 600)
+		}
+
+		if release.Thumb != "https://img.discogs.com/test-thumb.jpg" {
+			t.Errorf("got Thumb %q, want %q", release.Thumb, "https://img.discogs.com/test-thumb.jpg")
+		}
+		if release.EstimatedWeight != 230 {
+			t.Errorf("got EstimatedWeight %d, want %d", release.EstimatedWeight, 230)
+		}
+		if release.BlockedFromSale != false {
+			t.Errorf("got BlockedFromSale %v, want %v", release.BlockedFromSale, false)
+		}
+		if release.IsOffensive != false {
+			t.Errorf("got IsOffensive %v, want %v", release.IsOffensive, false)
+		}
+		if len(release.Series) != 0 {
+			t.Errorf("got Series length %d, want %d", len(release.Series), 0)
 		}
 	})
 }

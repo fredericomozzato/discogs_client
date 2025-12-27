@@ -21,7 +21,7 @@ type Release struct {
 	DateChanged          time.Time        `json:"date_changed"`
 	NumForSale           int              `json:"num_for_sale"`
 	LowestPrice          float32          `json:"lowest_price"`
-	MasterId             int64            `json:"master_id"`
+	MasterID             int64            `json:"master_id"`
 	MasterURL            string           `json:"master_url"`
 	Title                string           `json:"title"`
 	Country              string           `json:"country"`
