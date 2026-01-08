@@ -56,7 +56,7 @@ func TestGetRelease(t *testing.T) {
 	})
 
 	t.Run("correctly parses JSON data to Release type", func(t *testing.T) {
-		jsonData, err := os.ReadFile("../testdata/responses/release_minimal.json")
+		jsonData, err := os.ReadFile("../../testdata/responses/release_minimal.json")
 		if err != nil {
 			t.Fatal("could not open JSON file")
 		}
